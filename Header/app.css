@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body {
+    color: aliceblue;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 32px;
+}
+
+.header__logo {
+    width: auto;
+    height: 100%;
+}
+
+.header__logo img {
+    width: auto;
+    height: 100%;
+}
+
+.header__menus {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.header__menus *~* {
+    margin-left: 12px;
+}
